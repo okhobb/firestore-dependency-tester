@@ -1,0 +1,20 @@
+{
+  "dependencies": {
+    "firebase": "^8.4.3",
+    "firebase-admin": "^9.7.0",
+    "shared-firestore-lib": "file:shared-firestore-lib/shared-firestore-lib-1.0.0.tgz"
+  },
+  "devDependencies": {
+    "typescript": "^4.2.4"
+  },
+  "name": "firebase-lib-demo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

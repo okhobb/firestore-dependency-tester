@@ -1,0 +1,20 @@
+{
+  "name": "shared-firestore-lib",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc && npm pack && cd .. && rm -f package-lock.json && rm -rf node_modules/shared-firestore-lib && npm install ./shared-firestore-lib/shared-firestore-lib-1.0.0.tgz"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^4.2.4"
+  },
+  "dependencies": {
+    "firebase": "^8.4.3"
+  }
+}
